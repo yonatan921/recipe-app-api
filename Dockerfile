@@ -6,6 +6,7 @@ ENV PYTHONUNBUFFERED=1
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app /app
+
 WORKDIR /app
 EXPOSE 8000
 
@@ -21,10 +22,15 @@ RUN python -m venv /py && \
     fi && \
     rm -rf /tmp && \
     apk del .tmp-build-deps && \
-    adduser \
-        --disabled-password \
-        --no-create-home \
-        django-user
+    adduser --disabled-password --no-create-home django-user && \
+    chown -R django-user:django-user /app
 
+# Ensure the correct Python path and settings module
 ENV PATH="/py/bin:$PATH"
+ENV PYTHONPATH=/app
+ENV DJANGO_SETTINGS_MODULE=app.settings
+
 USER django-user
+
+# Run a quick Django import check
+RUN python -c "import django; print('Django installed successfully')"

@@ -9,7 +9,7 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ['email', 'password', 'name']
         extra_kwargs = {'password': {'write_only': True, 'min_length': 5}}
 
-    def create(self, validated_data):  # Fix: 'validate_data' → 'validated_data'
+    def create(self, validated_data):
         return get_user_model().objects.create_user(**validated_data)
 
 
@@ -17,14 +17,14 @@ class AuthTokenSerializer(serializers.Serializer):
     email = serializers.EmailField()
     password = serializers.CharField(
         style={'input_type': 'password'},
-        trim_whitespace=False  # Fix: 'trim_whitespaces' → 'trim_whitespace'
+        trim_whitespace=False
     )
 
     def validate(self, attrs):
         email = attrs.get('email')
         password = attrs.get('password')
         user = authenticate(
-            request=self.context.get('request'),  # Fix: 'contex' → 'context'
+            request=self.context.get('request'),
             username=email,
             password=password
         )

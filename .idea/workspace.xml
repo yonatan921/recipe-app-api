@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a80e19e-c5ef-4042-b293-5adca2eb84c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/tests/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="5a80e19e-c5ef-4042-b293-5adca2eb84c9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,37 +28,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.djangodocker.executor": "Debug",
-    "Django tests.Test: app.executor": "Run",
-    "Django tests.Test: app.user.tests.test_user_api.PublicUserApiTest.executor": "Run",
-    "Django tests.Test: user.tests.test_user_api.PrivateUserApiTest.executor": "Run",
-    "Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_create_user_success.executor": "Debug",
-    "Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_retrieve_user_un.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/yonat/PycharmProjects/recipe-app-api/app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.djangodocker.executor&quot;: &quot;Debug&quot;,
+    &quot;Django tests.Test: app.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: app.user.tests.test_user_api.PublicUserApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: core.tests.test_models.ModelTests.test_create_recipe.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: user.tests.test_user_api.PrivateUserApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_create_user_success.executor&quot;: &quot;Debug&quot;,
+    &quot;Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_retrieve_user_un.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yonat/PycharmProjects/recipe-app-api/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yonat\PycharmProjects\recipe-app-api\app" />
       <recent name="C:\Users\yonat\PycharmProjects\recipe-app-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: app">
+  <component name="RunManager" selected="Django tests.Test: core.tests.test_models.ModelTests.test_create_recipe">
     <configuration name="Test: app" type="DjangoTestsConfigurationType">
       <module name="recipe-app-api" />
       <option name="ENV_FILES" value="" />
@@ -81,6 +75,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: core.tests.test_models.ModelTests.test_create_recipe" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="recipe-app-api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="core.tests.test_models.ModelTests.test_create_recipe" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -220,6 +235,7 @@
       <item itemvalue="Django Server.recipe-app-api" />
       <item itemvalue="Django Server.djangodocker" />
       <item itemvalue="Django tests.Test: app" />
+      <item itemvalue="Django tests.Test: core.tests.test_models.ModelTests.test_create_recipe" />
       <item itemvalue="Django tests.Test: user.tests.test_user_api.PrivateUserApiTest" />
       <item itemvalue="Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_create_user_success" />
       <item itemvalue="Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_retrieve_user_un" />
@@ -227,6 +243,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: core.tests.test_models.ModelTests.test_create_recipe" />
         <item itemvalue="Django tests.Test: user.tests.test_user_api.PrivateUserApiTest" />
         <item itemvalue="Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_retrieve_user_un" />
         <item itemvalue="Django tests.Test: user.tests.test_user_api.PublicUserApiTest.test_create_user_success" />
@@ -262,7 +279,8 @@
       <workItem from="1741452696048" duration="5638000" />
       <workItem from="1741472062694" duration="1649000" />
       <workItem from="1741473760583" duration="112000" />
-      <workItem from="1741473885568" duration="4810000" />
+      <workItem from="1741473885568" duration="10456000" />
+      <workItem from="1741718996880" duration="465000" />
     </task>
     <servers />
   </component>
@@ -273,6 +291,7 @@
     <SUITE FILE_PATH="coverage/recipe_app_api$Test__app_user_tests_test_user_api_PublicUserApiTest.coverage" NAME="Test: app Coverage Results" MODIFIED="1741471876479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/recipe_app_api$Test__app.coverage" NAME="Test: app Coverage Results" MODIFIED="1741539458366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/recipe_app_api$Test__user_tests_test_user_api_PublicUserApiTest_test_create_user_success.coverage" NAME="Test: user.tests.test_user_api.PublicUserApiTest.test_create_user_success Coverage Results" MODIFIED="1741474447076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/recipe_app_api$Test__core_tests_test_models_ModelTests_test_create_recipe.coverage" NAME="Test: core.tests.test_models.ModelTests.test_create_recipe Coverage Results" MODIFIED="1741542864014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/recipe_app_api$Test__user_tests_test_user_api_PrivateUserApiTest.coverage" NAME="Test: user.tests.test_user_api.PrivateUserApiTest Coverage Results" MODIFIED="1741539434381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/recipe_app_api$Test__user_tests_test_user_api_PublicUserApiTest_test_retrieve_user_un.coverage" NAME="Test: user.tests.test_user_api.PublicUserApiTest.test_retrieve_user_un Coverage Results" MODIFIED="1741539404505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>

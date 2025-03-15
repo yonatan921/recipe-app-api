@@ -3,6 +3,9 @@ LABEL maintainer="ybaruch"
 
 ENV PYTHONUNBUFFERED=1
 
+# ✅ Install SSL certificates before switching users
+RUN apk update && apk add --no-cache ca-certificates
+
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app /app
@@ -31,6 +34,3 @@ ENV PYTHONPATH=/app
 ENV DJANGO_SETTINGS_MODULE=app.settings
 
 USER django-user
-
-# Run a quick Django import check
-RUN python -c "import django; print('Django installed successfully')"
